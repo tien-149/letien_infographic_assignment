@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Odibee+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
 
     <!-- import waypoint and greensock -->
@@ -12,6 +14,7 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.0.1/dist/gsap.min.js"></script>
 
     <title>LOL - Marksman</title>
 </head>
@@ -29,11 +32,12 @@
             <h3>ASHE</h3>
             <p>“One tribe, one people, one Freljord.''
             </p>
-            <span class="see-more" data-target="1">See More</span>
+            
+              <span class="see-more" data-target="1">See More</span>
           </div>
         </section>
 
-        <section id="ad2">
+        <section id="ad2" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/twitch.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
@@ -41,176 +45,179 @@
           </div>
           <div class="text-wrapper">
             <h3>TWITCH</h3>
-            <p> </p>
+            <p> "They threw this away? But it's so shinny!"</p>
             <span class="see-more" data-target="2">See More</span>
           </div>
         </section>
 
-        <section id="ad3">
+        <section id="ad3" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/miss fortune.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
           </div>
           <div class="text-wrapper">
             <h3>MISS FORTUNE</h3>
-            <p> </p>
+            <p>"The bigger the risk, the bigger the bounty." </p>
             <span class="see-more" data-target="3">See More</span>
           </div>
         </section>
 
-        <section id="ad4">
+        <section id="ad4" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/ezreal.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
           </div>
           <div class="text-wrapper">
             <h3>EZREAL</h3>
-            <p> </p>
+            <p> "If I don't know the rules, then how can I be breaking them?"</p>
             <span class="see-more" data-target="4">See More</span>
           </div>
         </section>
 
-        <section id="ad5">
+        <section id="ad5" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/vayne.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>VAYNE</h3>
-            <p> </p>
+            <p> “I don’t kill creatures like you 
+              because it’s the right thing to do. 
+              I kill you because I enjoy it.”</p>
+            <span class="see-more" data-target="5">See More</span>
           </div>
         </section>
 
-        <section id="ad6">
+        <section id="ad6" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/caitlyn.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>CAITLYN</h3>
-            <p> </p>
+            <p> "To be the best hunter, you have to be able to think like your prey."</p>
+            <span class="see-more" data-target="6">See More</span>
           </div>
         </section>
 
-        <section id="ad7">
+        <section id="ad7" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/draven.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>DRAVEN</h3>
-            <p> </p>
+            <p> '' 'The best' is wherever I decide to set the bar each day.''</p>
+            <span class="see-more" data-target="7">See More</span>
           </div>
         </section>
 
-        <section id="ad8">
+        <section id="ad8" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/jinx.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>JINX</h3>
-            <p> </p>
+            <p> "Volatile explosives are a girl's best friend!"</p>
+            <span class="see-more" data-target="8">See More</span>
           </div>
         </section>
 
-        <section id="ad9">
+        <section id="ad9" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/lucian.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>LUCIAN</h3>
-            <p> </p>
+            <p> “Wield the light,endure the pain,
+              and cleanse all shadow from this world.”</p>
+            <span class="see-more" data-target="9">See More</span>
           </div>
         </section>
 
-        <section id="ad10">
+        <section id="ad10" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/kalista.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>KALISTA</h3>
-            <p> </p>
+            <p> “Turncoats, oath breakers and betrayers… 
+              we hate them all.”</p>
+            <span class="see-more" data-target="10">See More</span>
           </div>
         </section>
 
-        <section id="ad11">
+        <section id="ad11" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/kindred.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>KINDRED</h3>
-            <p> </p>
+            <p> “Tell me again, little Lamb, which things are ours to take?”
+              “All things, dear Wolf.”</p>
+            <span class="see-more" data-target="11">See More</span>
           </div>
         </section>
 
-        <section id="ad12">
+        <section id="ad12" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/jhin.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>JHIN</h3>
-            <p> </p>
+            <p> “Art requires a certain… cruelty.”</p>
+            <span class="see-more" data-target="12">See More</span>
           </div>
         </section>
 
-        <section id="ad13">
+        <section id="ad13" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/xayah.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>XAYAH</h3>
-            <p> </p>
+            <p> "Ever been stabbed by a feather?"</p>
+            <span class="see-more" data-target="13">See More</span>
           </div>
         </section>
 
-        <section id="ad14">
+        <section id="ad14" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/kaisa.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
+            
           </div>
           <div class="text-wrapper">
             <h3>KAI'SA</h3>
-            <p> </p>
+            <p> “My appearance may frighten you, but make no mistake—
+              I am on your side, and we fight to the bitter end.” </p>
+            <span class="see-more" data-target="14">See More</span>
           </div>
-        </section>
-
-        <section id="beer2">
-          <div class="label_wrapper">
-            <h1 class="hidden">Ad-carry</h1>
-            <object data="images/twitch.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
-            <span class="see-more" data-target="2">See More Info!</span>
-          </div>
-          <div class="text-wrapper">
-            <h3>TWITCH</h3>
-            <p> </p>
-          </div>
-        </section>
-
-      
+        </section>      
 
         <article class="popover">
-          <h4 class="champ-name"></h4>
+          <h2 class="champ-name"></h2>
           <div class="nickname"></div>
           <h4 class="win"></h4>
           <h4 class="popularity"></h4>
         </article>
     </main>
+ 
     <script src="js/main.js"></script>
 </body>
 </html>
