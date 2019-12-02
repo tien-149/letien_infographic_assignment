@@ -13,59 +13,196 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
 
-    <title>SVG Animation with Waypoint and Greensock</title>
+    <title>LOL - Marksman</title>
 </head>
 <body>
-    <h1 class="main-header">SVG with Greensock and Waypoint.js</h1>
+    <h1 class="main-header">League of Legend - Marksman</h1>
     <main>
         <!-- if we were using a framework, these might be 6-col or something-->
-        <section id="beer1">
+        <section id="ad1" class="ad-display">
           <div class="label_wrapper">
             <h1 class="hidden">Ad-carry</h1>
             <object data="images/ashe.svg" type="image/svg+xml" class="svg-graphic" id="bottle"></object>
-            <span class="see-more" data-target="1">See More Info!</span>
+            
           </div>
-
-          <div class="text-wrapper">
+        <div class="text-wrapper">
             <h3>ASHE</h3>
-            <p>
+            <p>“One tribe, one people, one Freljord.''
             </p>
-      
+            <span class="see-more" data-target="1">See More</span>
+          </div>
+        </section>
+
+        <section id="ad2">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/twitch.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            
+          </div>
+          <div class="text-wrapper">
+            <h3>TWITCH</h3>
+            <p> </p>
+            <span class="see-more" data-target="2">See More</span>
+          </div>
+        </section>
+
+        <section id="ad3">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/miss fortune.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+          </div>
+          <div class="text-wrapper">
+            <h3>MISS FORTUNE</h3>
+            <p> </p>
+            <span class="see-more" data-target="3">See More</span>
+          </div>
+        </section>
+
+        <section id="ad4">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/ezreal.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+          </div>
+          <div class="text-wrapper">
+            <h3>EZREAL</h3>
+            <p> </p>
+            <span class="see-more" data-target="4">See More</span>
+          </div>
+        </section>
+
+        <section id="ad5">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/vayne.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>VAYNE</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad6">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/caitlyn.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>CAITLYN</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad7">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/draven.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>DRAVEN</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad8">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/jinx.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>JINX</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad9">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/lucian.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>LUCIAN</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad10">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/kalista.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>KALISTA</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad11">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/kindred.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>KINDRED</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad12">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/jhin.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>JHIN</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad13">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/xayah.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>XAYAH</h3>
+            <p> </p>
+          </div>
+        </section>
+
+        <section id="ad14">
+          <div class="label_wrapper">
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/kaisa.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <span class="see-more" data-target="2">See More Info!</span>
+          </div>
+          <div class="text-wrapper">
+            <h3>KAI'SA</h3>
+            <p> </p>
           </div>
         </section>
 
         <section id="beer2">
           <div class="label_wrapper">
-            <h1 class="hidden">Plain old beer</h1>
-            <object data="images/beerBarrels.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
+            <h1 class="hidden">Ad-carry</h1>
+            <object data="images/twitch.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
             <span class="see-more" data-target="2">See More Info!</span>
           </div>
-
           <div class="text-wrapper">
-            <h3>Beer In Barrels</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem facere deleniti ipsam, aliquid ipsum, cum rem ut eos voluptate omnis consequuntur delectus ratione amet nobis laborum accusantium possimus odit quibusdam?
-            </p>
-            <p>
-              Possimus consequuntur amet illum ipsa laborum accusantium, dolor neque magnam ipsum, adipisci deserunt distinctio necessitatibus asperiores ad nulla? Repellendus nobis, eveniet perspiciatis. Quisquam molestiae beatae laborum quo impedit nobis quod.
-            </p>
+            <h3>TWITCH</h3>
+            <p> </p>
           </div>
         </section>
 
-        <section id="beer3">
-          <div class="label_wrapper">
-            <h1 class="hidden">Plain old beer</h1>
-            <object data="images/qualityBeer.svg" type="image/svg+xml" class="svg-graphic" id="glasses"></object>
-            <span class="see-more" data-target="3">See More Info!</span>
-          </div>
-
-          <div class="text-wrapper">
-            <h3>Beer in Fancy Glasses</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem facere deleniti ipsam, aliquid ipsum, cum rem ut eos voluptate omnis consequuntur delectus ratione amet nobis laborum accusantium possimus odit quibusdam?
-            </p>
-          </div>
-        </section>
+      
 
         <article class="popover">
           <h4 class="champ-name"></h4>

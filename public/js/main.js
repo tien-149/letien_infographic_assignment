@@ -4,43 +4,123 @@
         popOver = document.querySelector('.popover');
 
     const waypoint = new Waypoint({
-        // what element is this waypoint looking at?
-        // the handler will fire when it scrolls into view
-        element: document.getElementById('beer2'),
-        // what should we do when we hit the waypoint? this is up to you.
-        // you can trigger animation, do an AJAX call... whatever
+        element: document.getElementById('ad1'),
         handler: function(direction) {
           console.log('Scrolled to waypoint!');
-        //   this.element.innerHTML += `
-        //   <p>Added this with Waypoint! We are scrolling ${direction}</p>`;
         }
     })
 
     const waypoint2 = new Waypoint({
-        // what element is this waypoint looking at?
-        // the handler will fire when it scrolls into view
-
-        element: document.getElementById('beer3'),
-        // what should we do when we hit the waypoint? this is up to you.
-        // you can trigger animation, do an AJAX call... whatever
+        element: document.getElementById('ad2'),
         handler: function(direction) {
           console.log('Scrolled to waypoint 2!');
         },
+        offset: 200
+    })
 
+    const waypoint3 = new Waypoint({
+        element: document.getElementById('ad3'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 3!');
+        },
+        offset: 300
+    })
+
+    const waypoint4 = new Waypoint({
+        element: document.getElementById('ad4'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 4!');
+        },
+        offset: 200
+    })
+
+    const waypoint5 = new Waypoint({
+        element: document.getElementById('ad5'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 5!');
+        },
+        offset: 200
+    })
+
+    const waypoint6 = new Waypoint({
+        element: document.getElementById('ad6'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 6!');
+        },
+        offset: 200
+    })
+
+    const waypoint7 = new Waypoint({
+        element: document.getElementById('ad7'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 7!');
+        },
+        offset: 200
+    })
+
+    const waypoint8 = new Waypoint({
+        element: document.getElementById('ad8'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 8!');
+        },
+        offset: 200
+    })
+
+    const waypoint9 = new Waypoint({
+        element: document.getElementById('ad9'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 9!');
+        },
+        offset: 200
+    })
+
+    const waypoint10 = new Waypoint({
+        element: document.getElementById('ad10'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 10!');
+        },
+        offset: 200
+    })
+
+    const waypoint11 = new Waypoint({
+        element: document.getElementById('ad11'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 11!');
+        },
+        offset: 200
+    })
+
+    const waypoint12 = new Waypoint({
+        element: document.getElementById('ad12'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 12!');
+        },
+        offset: 200
+    })
+
+    const waypoint13 = new Waypoint({
+        element: document.getElementById('ad13'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 13!');
+        },
+        offset: 200
+    })
+
+    const waypoint14 = new Waypoint({
+        element: document.getElementById('ad14'),
+        handler: function(direction) {
+          console.log('Scrolled to waypoint 14!');
+        },
         offset: 200
     })
 
     const svgGraphic = document.querySelector(".svg-wrapper");
 
-    // svgGraphic.addEventListener("click", function() {
-    //     console.log(this);
-    // })
-    // show the popover
-    function showPopover(beerdata, el) {
-        popOver.querySelector(".champ-name").textContent = `Name: ${beerdata.Name}`;
-        popOver.querySelector(".nickname").textContent = `${beerdata.Nickname}`;
-        popOver.querySelector(".win").textContent = `Win percent(%): ${beerdata.Win}`;
-        popOver.querySelector(".popularity").textContent = `Popularity(%): ${beerdata.Popularity}`;
+    function showPopover(champdata, el) {
+        popOver.querySelector(".champ-name").textContent = `Name: ${champdata.Name}`;
+        popOver.querySelector(".nickname").textContent = `${champdata.Nickname}`;
+        popOver.querySelector(".win").textContent = `Win percent(%): ${champdata.Win}`;
+        popOver.querySelector(".popularity").textContent = `Popularity(%): ${champdata.Popularity}`;
 
         popOver.classList.add('show-popover');
 
