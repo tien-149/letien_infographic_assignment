@@ -14,6 +14,7 @@
         element: document.getElementById('ad2'),
         handler: function(direction) {
           console.log('Scrolled to waypoint 2!');
+         
         },
         offset: 200
     })
@@ -117,7 +118,7 @@
     const svgGraphic = document.querySelector(".svg-wrapper");
 
     function showPopover(champdata, el) {
-        popOver.querySelector(".champ-name").textContent = `Name: ${champdata.Name}`;
+        popOver.querySelector(".champ-name").textContent = ` ${champdata.Name}`;
         popOver.querySelector(".nickname").textContent = `${champdata.Nickname}`;
         popOver.querySelector(".win").textContent = `Win percent(%): ${champdata.Win}`;
         popOver.querySelector(".popularity").textContent = `Popularity(%): ${champdata.Popularity}`;
