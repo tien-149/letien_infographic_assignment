@@ -1,3 +1,9 @@
+body{
+  background: url("../images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#more {display: none;}
 
 .hidden{display:none;}
 .main-header{
@@ -6,6 +12,7 @@
   margin-top:100px;
   font-family: 'Odibee Sans', cursive;
   margin-bottom: 100px;
+  color:white;
 
 }
 .ad-display{
@@ -13,7 +20,9 @@
   flex-direction: row;
   margin: 0 auto;
   padding:20px;
-  width: 100%;
+  width: 400px;
+
+  
 }
 .svg-graphic{
   width:150px;
@@ -22,7 +31,7 @@
 }
 
 .popover { 
-    background-color: lightblue;
+
     border-radius: 5px;
     padding:5px;
     border:1px solid black;
@@ -30,7 +39,7 @@
 }
 .show-popover { 
   display: block; 
-  background-color: lightblue;
+  background-color: darkslategray;
     border-radius: 5px;
     padding:5px;
     border:1px solid black;
@@ -41,19 +50,22 @@
   justify-content: center;
   text-align: center;
   margin: 0 auto;
+  
 }
 p{
   font-family: 'Caveat', cursive;
   text-align: center;
+  color:white;
 }
 h3{
   font-family: 'Odibee Sans', cursive;
   text-align: center;
+  color:white;
 }
 .see-more{
   font-family: 'Odibee Sans', cursive;
-  font-size:12px;
-  
+  font-size:13px;
+  color:lightcyan;
 }
 span{
   justify-content: center;
@@ -64,3 +76,21 @@ h2{
   font-size:20px;
 }
 
+@media screen and (min-width: 1024px){
+  .main-header{
+    font-size: 37px;
+  }
+  .ad-display{
+    width:800px;
+    border-bottom: 0.3px solid darkslategrey;
+  }
+  .svg-graphic{
+    width:180px;
+  }
+  p{
+    font-size: 26px;
+  }
+  h2, h3{
+    font-size:30px;
+  }
+}

@@ -1,4 +1,10 @@
+gsap.from(".svg-graphic", {duration:1.5, opacity:0, y:"random(-200,200)", stagger: 0.25, ease: "back"});
+
+
+
 (() => {
+
+
     // try to get the object and do stuff with it
     let seeMoreButtons = document.querySelectorAll('.see-more'),
         popOver = document.querySelector('.popover');
