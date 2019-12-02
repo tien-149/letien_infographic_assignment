@@ -1,7 +1,5 @@
-gsap.from(".svg-graphic", {duration:1.5, opacity:0, y:"random(-200,200)", stagger: 0.25, ease: "back"});
-
-
-
+gsap.from(".svg-graphic", {duration:1.5, opacity:0, y:"random(-200,200)", stagger: 1.25, ease: "back"});
+gsap.from(".text-wrapper", {duration:1, opacity:0, x:250, stagger: 1.75, ease: "front"});
 (() => {
 
 
